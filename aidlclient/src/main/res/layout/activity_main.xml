@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+    <EditText
+            android:gravity="center|right"
+            android:id="@+id/et_num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:gravity="right|center"/>
+    <EditText
+            android:gravity="center|right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/et_num2"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:gravity="right|center"/>
+    <EditText
+            android:gravity="center|right"
+            android:editable="false"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_show_result"
+            android:textSize="24sp"/>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn_count"
+            android:text="远程计算"
+            android:gravity="center"
+            android:textSize="24sp" />
+</LinearLayout>
